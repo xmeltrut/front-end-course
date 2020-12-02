@@ -1,0 +1,100 @@
+/** float **/
+
+div.float-layout main {
+    float: left;
+    width: 75%;
+}
+
+div.float-layout aside {
+    float: right;
+    width: 25%;
+}
+
+div.float-layout footer {
+    clear: both;
+}
+
+/** flex **/
+
+div.flex-layout > div > div {
+    display: flex;
+}
+
+div.flex-layout main {
+    width: 75%;
+}
+
+div.flex-layout aside {
+    width: 25%;
+}
+
+/** Grid **/
+
+div.grid-layout > div {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: 3fr 1fr;
+}
+
+div.grid-layout header, div.grid-layout footer {
+    grid-column: 1 / span 2;
+}
+
+/** Absolute **/
+
+div.absolute-layout > div {
+    position: relative;
+    height: 70%;
+}
+
+div.absolute-layout main {
+    position: absolute;
+    left: 24px;
+    right: 25%;
+}
+
+div.absolute-layout aside {
+    position: absolute;
+    right: 24px;
+    left: 75%;
+}
+
+div.absolute-layout footer {
+    position: absolute;
+    bottom: 0;
+    left: 24px;
+    right: 24px;
+}
+
+/** General styles below **/
+
+body {
+    font-family: Muli;
+    font-size: 16px;
+    margin: 0;
+}
+
+div.layout {
+    border: #9d6b53 5px solid;
+    box-sizing: border-box;
+    height: 100vh;
+    margin-bottom: 24px;
+}
+
+div.layout > div {
+    padding: 24px;
+}
+
+div > h1 {
+    background-color: #b07d62;
+    color: #fff;
+    font-size: 100%;
+    margin: 0;
+    padding: 12px;
+}
+
+aside, footer, header, main { box-sizing: border-box; padding: 24px; }
+aside { background-color: #118ab2; min-height: 200px; }
+footer { background-color: #06d6a0; }
+header { background-color: #ef476f; }
+main { background-color: #ffd166; min-height: 300px; }

@@ -1,0 +1,65 @@
+body {
+    font-family: Muli;
+    font-size: 32px;
+    margin: 24px;
+}
+
+h1 {
+    font-size: 100%;
+}
+
+div.flex {
+    background-color: #e0aaff;
+    display: flex;
+    margin-bottom: 100px;
+    padding: 24px;
+}
+
+div.flex > div {
+    background-color: #9d4edd;
+    border: #5a189a 5px solid;
+    padding: 24px;
+}
+
+div.flex-direction {
+    /*flex-direction: column;*/
+}
+
+div.flex-wrap {
+    /*flex-wrap: wrap;*/
+}
+
+div.flex-wrap > div {
+    width: 25%;
+}
+
+div.flex-justify {
+    /* flex-start, flex-end, center, space-around, space-between */
+    justify-content: space-between;
+}
+
+div.flex-align {
+    /* flex-start, flex-end, center, stretch */
+    height: 200px;
+}
+
+div.flex-child {
+    height: 200px;
+}
+
+div.flex-child > div {
+    width: 20%;
+}
+
+div.flex-child > div.box-3 {
+    align-self: center;
+    order: -1;
+}
+
+div.flex-child > div.box-2 {
+    order: 1;
+}
+
+div.flex-child > div.box-4 {
+    flex-shrink: 0;
+}

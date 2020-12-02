@@ -1,0 +1,47 @@
+body {
+    font-family: Muli;
+    font-size: 16px;
+    padding: 24px;
+}
+
+header, main, footer {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+footer {
+    background-color: #e07a5f;
+    padding: 24px;
+    text-align: center;
+}
+
+form button {
+    background-color: #3d405b;
+    border: 0;
+    color: #fff;
+    font-size: 100%;
+    padding: 15px;
+}
+
+form input {
+    background-color: #f4f1de;
+    border: #3d405b 5px solid;
+    padding: 12px;
+    width: 50%;
+}
+
+header {
+    background-color: #81b29a;
+    font-size: 200%;
+    padding: 24px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    line-height: 150%;
+}

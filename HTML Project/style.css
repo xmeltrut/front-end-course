@@ -1,0 +1,61 @@
+aside {
+    background: #eee;
+    padding: 24px;
+}
+
+body {
+    font-family: "Open Sans", helvetica, sans-serif;
+    margin: 0;
+}
+
+footer {
+    background-color: #caf0f8;
+    padding: 24px;
+}
+
+form div {
+    margin-bottom: 24px;
+}
+
+header {
+    background-color: #caf0f8;
+    font-size: 200%;
+    padding: 24px;
+}
+
+main {
+    padding: 24px;
+}
+
+main.layout {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 24px;
+}
+
+main div.higlight {
+    border: red 1px solid;
+}
+
+main img {
+    max-width: 100%;
+}
+
+main span {
+    border: green 1px solid;
+}
+
+nav {
+    background-color: #ABC9E0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 24px;
+}
