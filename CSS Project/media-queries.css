@@ -8,7 +8,7 @@ aside h2 {
 }
 
 body {
-    font-family: Muli;
+    font-family: "Open Sans", helvetica, sans-serif;
     font-size: 16px;
     margin: 0;
 }
@@ -65,3 +65,24 @@ nav ol {
 nav ol li {
     list-style-type: none;
 }
+
+/*@media (min-width: 700px) {
+    nav ol {
+        display: flex;
+        justify-content: center;
+    }
+
+    main {
+        display: flex;
+    }
+
+    article {
+        box-sizing: border-box;
+        padding-right: 24px;
+        width: 75%;
+    }
+
+    aside {
+        width: 25%;
+    }
+}*/

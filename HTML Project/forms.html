@@ -11,7 +11,7 @@
         Project 1
     </header>
     <main>
-        <form method="get">
+        <form method="post">
             <div>
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" maxlength="50" placeholder="Jane">
@@ -19,27 +19,27 @@
 
             <div>
                 <label for="email">Email address</label>
-                <input type="email" name="email" id="email" value="jane@example.com">
+                <input type="email" name="email" id="email" value="jane@example.com" disabled>
             </div>
 
             <div>
                 <label for="experience">Experience</label>
                 <select name="experience" id="experience">
                     <option value="novice">Novice</option>
-                    <option valur="experienced" selected>Experienced</option>
+                    <option value="experienced" selected>Experienced</option>
                     <option value="expert">Expert</option>
                 </select>
             </div>
 
             <div>
                 <label for="comments">Comments</label>
-                <textarea name="comments" id="Comments"></textarea>
+                <textarea name="comments" id="Comments">Comments go here.</textarea>
             </div>
 
             <div>
-                <input type="checkbox" name="skills" id="skills_it"> <label for="skills_it">IT</label>
-                <input type="checkbox" name="skills" id="skills_languages"> <label for="skills_languages">Languages</label>
+                <input type="checkbox" name="skills" id="skills_fishing"> <label for="skills_fishing">Fishing</label>
                 <input type="checkbox" name="skills" id="skills_cooking"> <label for="skills_cooking">Cooking</label>
+                <input type="checkbox" name="skills" id="skills_hunting"> <label for="skills_hunting">Hunting</label>
             </div>
 
             <button type="submit">Submit form</button>
