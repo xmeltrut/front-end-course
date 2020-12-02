@@ -69,7 +69,7 @@ div.absolute-layout footer {
 /** General styles below **/
 
 body {
-    font-family: Muli;
+    font-family: "Open Sans", helvetica, sans-serif;
     font-size: 16px;
     margin: 0;
 }
