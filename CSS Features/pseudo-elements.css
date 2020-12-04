@@ -1,0 +1,39 @@
+* {
+    line-height: 150%;
+}
+
+body {
+    font-family: "Open Sans", helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+header {
+    background-color: lavender;
+    font-size: 200%;
+    padding: 24px;
+}
+
+main {
+    padding: 25px;
+    max-width: 600px;
+}
+
+p::first-letter {
+    color: blue;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 12px;
+}
+
+ul li::before {
+    content: '»';
+    margin-right: 6px;
+}

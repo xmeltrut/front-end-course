@@ -1,0 +1,33 @@
+body {
+    margin: 24px;
+}
+
+div {
+    background-color: #ddd;
+    height: 300px;
+    margin-bottom: 24px;
+    width: 300px;
+}
+
+div.box-1 {
+    background-color: mediumseagreen;
+    background-image: linear-gradient(greenyellow, mediumseagreen);
+}
+
+div.box-2 {
+    background-image: linear-gradient(to right, mediumspringgreen, forestgreen);
+}
+
+div.box-3 {
+    background-image: linear-gradient(
+        to right,
+        paleturquoise 0%,
+        midnightblue 20%,
+        cornflowerblue 90%
+    );
+    width: 600px;
+}
+
+div.box-4 {
+    background-image: radial-gradient(blue, green);
+}

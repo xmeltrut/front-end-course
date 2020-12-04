@@ -1,0 +1,31 @@
+:root {
+    --primary-colour: #483D8B;
+}
+
+* {
+    line-height: 150%;
+}
+
+body {
+    font-family: "Open Sans", helvetica, sans-serif;
+    font-size: 16px;
+    margin: 24px;
+}
+
+header, main {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+header {
+    background-color: var(--primary-colour);
+    color: #fff;
+    font-size: 200%;
+    padding: 24px;
+}
+
+main h1 {
+    border-bottom: #483D8B 5px solid;
+    color: #483D8B;
+    padding-bottom: 4px;
+}

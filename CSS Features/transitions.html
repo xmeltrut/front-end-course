@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Transitions</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="transitions.css">
+</head>
+<body>
+    <button>Toggle menu</button>
+
+    <ul>
+        <li><a href="#">Homepage</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+
+    <script>
+        var menu = document.querySelector('ul');
+
+        document.querySelector('button').onclick = function() {
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

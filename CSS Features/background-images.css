@@ -1,0 +1,36 @@
+body {
+    color: #fff;
+    font-family: "Open Sans", helvetica, sans-serif;
+    font-size: 32px;
+    margin: 24px;
+}
+
+div {
+    align-items: center;
+    background-color: darkcyan;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    width: 500px;
+    height: 300px;
+}
+
+div.box-1 {
+    background-image: url('images/night-forest.jpg');
+    /*background-clip: content-box;*/
+}
+
+div.box-2 {
+    background-image: url('images/night-forest-small.jpg');
+    /* repeat-x repeat-y space no-repeat */
+    background-repeat: no-repeat;
+    background-position: top center;
+    
+}
+
+div.box-3 {
+    background-image: url('images/night-forest-small.jpg');
+    /** auto, cover, contain */
+    background-size: cover;
+}
