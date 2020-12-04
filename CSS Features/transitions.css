@@ -51,4 +51,5 @@ ul.hidden {
 
 ul li {
     list-style-type: none;
+    white-space: nowrap;
 }
